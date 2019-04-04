@@ -35,5 +35,8 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/antiboredom/jside.git"
+  },
+  "dependencies": {
+    "node-static": "^0.7.11"
   }
 }

@@ -145,8 +145,8 @@ module.exports = {
               'inject-js-start': 'js/debug-console.js',
               x: self.outX,
               y: self.outY,
-              width: self.outW,
-              height: self.outH,
+              width: self.outW + 20,
+              height: self.outH + 20,
               nodejs: false,
               'page-cache': false,
             });
@@ -303,14 +303,14 @@ var running = false;
 var url = '';
 var staticServer = nodeRequire('node-static'), server, file;
 
-// var p5serial = nodeRequire('p5.serialserver');
+//var p5serial = nodeRequire('p5.serialserver');
 
 function startServer(path, app, callback) {
   if (running === false) {
-    // if (!nodeGlobal.serialRunning) {
-    //   p5serial.start();
-    //   nodeGlobal.serialRunning = true;
-    // }
+     /*if (!nodeGlobal.serialRunning) {
+       p5serial.start();
+       nodeGlobal.serialRunning = true;
+     }*/
     var portscanner = nodeRequire('portscanner');
     portscanner.findAPortNotInUse(3000, 4000, '127.0.0.1', function(error, port) {
       server = nodeRequire('http').createServer(handler);

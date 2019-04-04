@@ -1,5 +1,12 @@
-# This editor has been deprecated, we will not be making further releases. We are turning our energy toward a web editor which will be released later this year. For now, we recommend using editors like [Brackets](http://brackets.io), [Atom](https://atom.io/), [Sublime Text](https://www.sublimetext.com/3), or [OpenProcessing](https://www.openprocessing.org/).
+##Este editor ya no tiene soporte oficial, sin embargo estoy tratando de que pueda ser compilado de nuevo actualizando algunas dependencias y actualizar las librerias y ejemplos.
 
+### TODO:
+- [x] Version compilable (Actualmente solo en node.js 6.x)
+- [ ] Actualizar a la ultima version de p5.js
+- [ ] Actualizar los ejemplos a sus ultimas versiones
+- [ ] Agregar referencia offline actualizada
+
+---
 
 ## p5.js Editor: a code editor designed for p5.js
 
@@ -57,7 +64,7 @@ Below you'll find documentation for the different libraries we're using
 
 ### Building
 
-Just run the gulp task: 
+Just run the gulp task:
 `gulp build`
 
 This will build Mac and Windows versions of the editor, and place them in `dist/`. Please note that due to an issue with file path lengths (to be fixed, evidently in the next version of npm), Mac users may run into an issue building the Windows version. To fix this install and run `flatten-packages`:
