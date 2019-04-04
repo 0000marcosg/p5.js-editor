@@ -1,4 +1,4 @@
-##Este editor ya no tiene soporte oficial, sin embargo estoy tratando de que pueda ser compilado de nuevo actualizando algunas dependencias y actualizar las librerias y ejemplos.
+## Este editor ya no tiene soporte oficial, sin embargo estoy tratando de que pueda ser compilado de nuevo actualizando algunas dependencias y actualizar las librerias y ejemplos.
 
 ### TODO:
 - [x] Version compilable (Actualmente solo en node.js 6.x)
