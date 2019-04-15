@@ -2,9 +2,9 @@
 
 ### TODO:
 - [x] Version compilable (Actualmente solo en node.js 6.x)
-- [ ] Actualizar a la ultima version de p5.js
+- [x] Actualizar a la ultima version de p5.js
 - [ ] Actualizar los ejemplos a sus ultimas versiones
-- [ ] Agregar referencia offline actualizada
+- [x] Agregar referencia offline actualizada
 
 ---
 
